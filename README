@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3806
+
+" DESCRIPTION:
+"  This plugin enables vim to open relatively-described files under the cursor.
+"
+"  If :call GotoRelTargetFile(), jump to the file
+"  Ctrl-O : You can go back to source file
+"  let g:openrel_root_dirs = ['/var/www/']
+"
+"  Please add following setting to your .vimrc
+" ==================================================
+" nnoremap gaf :<C-u>call GotoRelTargetFile()<CR>
+" ==================================================
